@@ -3,9 +3,9 @@
 <!-- Created with Vectornator (http://vectornator.io/) -->
 <svg height="512.0pt" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 512 512" width="512.0pt" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient gradientTransform="matrix(345.671 -340.612 340.612 345.671 27.1944 495.242)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="0" x2="1" y1="0" y2="0">
-<stop offset="0" stop-color="#f2f3f8"/>
-<stop offset="1" stop-color="#3c50e0"/>
+<linearGradient gradientTransform="matrix(0.565469 -366.989 366.989 0.565469 258.596 495.571)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#886202"/>
+<stop offset="1" stop-color="#000214"/>
 </linearGradient>
 <linearGradient gradientTransform="matrix(9.32029 0 -0 9.32029 151.325 111.833)" gradientUnits="userSpaceOnUse" id="LinearGradient_2" x1="0" x2="1" y1="0" y2="0">
 <stop offset="0" stop-color="#edb8d4"/>
