@@ -3,17 +3,17 @@ import NewProducts from "@/components/main-page/newProducts/newProducts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Новинки IQOS Iluma и Terea | Последние поступления | ilumastore",
+  title: "Новинки IQOS Iluma и Terea | Последние поступления | iluma-24",
   description:
     "Новые поступления устройств IQOS Iluma и стиков Terea. Свежие модели, ограниченные серии и новейшие аксессуары. Будьте в курсе последних новинок нагрева табака.",
   keywords:
     "новинки IQOS, новые поступления Iluma, последние модели Terea, новейшие устройства нагрева, ограниченные серии IQOS, новые стики Terea",
   openGraph: {
-    title: "Новинки IQOS Iluma и Terea | ilumastore",
+    title: "Новинки IQOS Iluma и Terea | iluma-24",
     description:
       "Самые свежие поступления устройств IQOS Iluma и стиков Terea. Новые модели и ограниченные серии.",
-    url: "https://ilumastore.ru/new-products",
-    siteName: "ilumastore",
+    url: "https://iluma-24.ru/new-products",
+    siteName: "iluma-24",
     images: [
       {
         url: "/og-new-products-image.jpg",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Новинки IQOS Iluma и Terea | ilumastore",
+    title: "Новинки IQOS Iluma и Terea | iluma-24",
     description:
       "Самые свежие поступления устройств и стиков для нагрева табака",
     images: ["/twitter-new-products-image.jpg"],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://ilumastore.ru/new-products",
+    canonical: "https://iluma-24.ru/new-products",
   },
 };
 

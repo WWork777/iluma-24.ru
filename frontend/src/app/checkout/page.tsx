@@ -17,7 +17,7 @@ const MIN_PACKS_FOR_DELIVERY = 10;
 const MIN_BLOCKS_FOR_DELIVERY = 1;
 const MIN_ORDER_AMOUNT = 3500; // 3.5 тысячи рублей
 
-const site = "ilumastore.ru";
+const site = "iluma-24.ru";
 
 export default function CheckoutPage() {
   function encodeImageUrl(url: string): string {
@@ -129,7 +129,7 @@ export default function CheckoutPage() {
     try {
       // Формируем красивое сообщение для Telegram
       const message = `
-заказ с сайта ilumastore.ru
+заказ с сайта iluma-24.ru
 
 
 Имя: ${orderData.customer_name}

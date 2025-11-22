@@ -18,7 +18,7 @@ export async function generateMetadata({
   const categoryConfig = {
     iqos: {
       name: "IQOS Iluma",
-      title: "IQOS Iluma Купить в Москве | ilumastore",
+      title: "IQOS Iluma Купить в Москве | iluma-24",
       description:
         "Купить оригинальные устройства IQOS Iluma. Полный каталог моделей, аксессуаров и комплектующих. Гарантия качества, доставка по России.",
       keywords:
@@ -26,7 +26,7 @@ export async function generateMetadata({
     },
     terea: {
       name: "Стики TEREA",
-      title: "Стики TEREA Купить в Москве | ilumastore",
+      title: "Стики TEREA Купить в Москве | iluma-24",
       description:
         "Оригинальные стики TEREA для IQOS Iluma. Все вкусы и крепости в наличии. Доставка по Москве и России. Гарантия свежести.",
       keywords:
@@ -34,7 +34,7 @@ export async function generateMetadata({
     },
     devices: {
       name: "Аксессуары IQOS",
-      title: "Аксессуары для IQOS Чехлы, зарядные устройства | ilumastore",
+      title: "Аксессуары для IQOS Чехлы, зарядные устройства | iluma-24",
       description:
         "Аксессуары для IQOS Iluma: чехлы, зарядные устройства, очистители. Оригинальные и совместимые аксессуары с доставкой.",
       keywords:
@@ -44,7 +44,7 @@ export async function generateMetadata({
 
   const config = categoryConfig[category as keyof typeof categoryConfig] || {
     name: "Товары",
-    title: "Каталог товаров | ilumastore",
+    title: "Каталог товаров | iluma-24",
     description:
       "Каталог товаров для нагрева табака. Оригинальная продукция с доставкой.",
   };
@@ -57,7 +57,7 @@ export async function generateMetadata({
       title: config.title,
       description: config.description,
       type: "website",
-      url: `https://ilumastore.ru/catalog/${category}`,
+      url: `https://iluma-24.ru/catalog/${category}`,
       images: [
         {
           url: `/og-${category}-image.jpg`,
@@ -78,7 +78,7 @@ export async function generateMetadata({
       follow: true,
     },
     alternates: {
-      canonical: `https://ilumastore.ru/catalog/${category}`,
+      canonical: `https://iluma-24.ru/catalog/${category}`,
     },
   };
 }

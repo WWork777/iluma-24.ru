@@ -59,16 +59,16 @@ export async function generateMetadata({
     subCategoryNames[decodedSub.toLowerCase()] || decodedSub;
 
   return {
-    title: `${subDisplayName} - Купить в Москве | ilumastore`,
-    description: `Купить ${subDisplayName} ${config.baseDescription.toLowerCase()} в магазине ilumastore. Оригинальная продукция, гарантия качества, доставка по Москве и России.`,
+    title: `${subDisplayName} - Купить в Москве | iluma-24`,
+    description: `Купить ${subDisplayName} ${config.baseDescription.toLowerCase()} в магазине iluma-24. Оригинальная продукция, гарантия качества, доставка по Москве и России.`,
     keywords: `${decodedSub} ${config.name.toLowerCase()}, купить ${decodedSub}, ${
       config.baseDescription
     } ${decodedSub}, оригинальные ${config.name.toLowerCase()}`,
     openGraph: {
-      title: `${subDisplayName} | ilumastore`,
+      title: `${subDisplayName} | iluma-24`,
       description: `Выберите и купите ${subDisplayName} ${config.baseDescription.toLowerCase()}. Оригинальная продукция с доставкой.`,
       type: "website",
-      url: `https://ilumastore.ru/catalog/${category}/${sub}`,
+      url: `https://iluma-24.ru/catalog/${category}/${sub}`,
       images: [
         {
           url: `/og-${category}-${sub}-image.jpg`,
@@ -80,7 +80,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${subDisplayName} | ilumastore`,
+      title: `${subDisplayName} | iluma-24`,
       description: `${subDisplayName} ${config.baseDescription} - оригинальная продукция`,
       images: [`/twitter-${category}-${sub}-image.jpg`],
     },
@@ -89,7 +89,7 @@ export async function generateMetadata({
       follow: true,
     },
     alternates: {
-      canonical: `https://ilumastore.ru/catalog/${category}/${sub}`,
+      canonical: `https://iluma-24.ru/catalog/${category}/${sub}`,
     },
   };
 }

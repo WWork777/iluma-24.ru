@@ -6,17 +6,17 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Каталог IQOS Iluma и стиков Terea | Официальный магазин ilumastore",
+  title: "Каталог IQOS Iluma и стиков Terea | Официальный магазин iluma-24",
   description:
     "Официальный каталог IQOS Iluma и стиков Terea. Устройства нагрева табака, стики, аксессуары и комплектующие. Гарантия качества, доставка по Москве и России.",
   keywords:
     "IQOS Iluma купить, Terea стики, устройства нагрева табака, каталог IQOS, Iluma Prime, стики для IQOS, аксессуары IQOS",
   openGraph: {
-    title: "Каталог IQOS Iluma и стиков Terea | ilumastore",
+    title: "Каталог IQOS Iluma и стиков Terea | iluma-24",
     description:
       "Полный каталог устройств IQOS Iluma и стиков Terea. Официальная продукция с гарантией качества.",
-    url: "https://ilumastore.ru/catalog",
-    siteName: "ilumastore",
+    url: "https://iluma-24.ru/catalog",
+    siteName: "iluma-24",
     images: [
       {
         url: "/og-catalog-image.jpg",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Каталог IQOS Iluma и стиков Terea | ilumastore",
+    title: "Каталог IQOS Iluma и стиков Terea | iluma-24",
     description: "Официальный каталог устройств IQOS Iluma и стиков Terea",
     images: ["/twitter-catalog-image.jpg"],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://ilumastore.ru/catalog",
+    canonical: "https://iluma-24.ru/catalog",
   },
 };
 

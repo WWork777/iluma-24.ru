@@ -11,9 +11,9 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title:
-    "Купить IQOS ILUMA и стики TEREA в Москве — доставка по России | ilumastore",
+    "Купить IQOS ILUMA и стики TEREA в Москве — доставка по России | iluma-24",
   description:
-    "Интернет-магазин ilumastore: IQOS ILUMA, стики TEREA и аксессуары. Быстрая доставка по Москве и всей России. Только оригинальная продукция.",
+    "Интернет-магазин iluma-24: IQOS ILUMA, стики TEREA и аксессуары. Быстрая доставка по Москве и всей России. Только оригинальная продукция.",
   keywords: [
     "iqos iluma купить",
     "стики terea москва",
@@ -23,24 +23,24 @@ export const metadata: Metadata = {
     "купить iqos онлайн",
   ],
   openGraph: {
-    title: "ilumastore — IQOS ILUMA и стики TEREA с доставкой по России",
+    title: "iluma-24 — IQOS ILUMA и стики TEREA с доставкой по России",
     description:
       "Купить IQOS ILUMA и TEREA по выгодным ценам. Доставка по Москве и всей России. Оригинальная продукция от Philip Morris.",
-    url: "https://ilumastore.ru",
-    siteName: "ilumastore",
+    url: "https://iluma-24.ru",
+    siteName: "iluma-24",
     images: [
       {
-        url: "https://ilumastore.ru/og-image.jpg",
+        url: "https://iluma-24.ru/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "ilumastore — IQOS ILUMA и TEREA",
+        alt: "iluma-24 — IQOS ILUMA и TEREA",
       },
     ],
     locale: "ru_RU",
     type: "website",
   },
   alternates: {
-    canonical: "https://ilumastore.ru/",
+    canonical: "https://iluma-24.ru/",
   },
   robots: {
     index: true,
@@ -56,7 +56,7 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "Store",
           name: "SmokeStore",
-          image: "https://ilumastore.ru/logo.png",
+          image: "https://iluma-24.ru/logo.png",
           description:
             "Интернет-магазин IQOS ILUMA и стиков TEREA с доставкой по Москве и всей России.",
           address: {
@@ -64,7 +64,7 @@ export default function Home() {
             addressLocality: "Москва",
             addressCountry: "Россия",
           },
-          url: "https://ilumastore.ru",
+          url: "https://iluma-24.ru",
           telephone: "+7 (900) 123-45-67",
         })}
       </Script>

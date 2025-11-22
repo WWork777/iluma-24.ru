@@ -14,7 +14,7 @@ export default function Footer() {
               height={70}
               width={70}
             />
-            <h2 className={styles.logo_text}>Ilumastore</h2>
+            <h2 className={styles.logo_text}>Iluma-24</h2>
           </div>
           <p className={styles.description}>
             Интернет-магазин современных технологичных устройств. Мы предлагаем
@@ -78,7 +78,7 @@ export default function Footer() {
 
       <div className={styles.footer_bottom}>
         <div className={styles.copyright}>
-          © 2025 ilumastore. Все права защищены.
+          © 2025 iluma-24. Все права защищены.
         </div>
         <div className={styles.legal_links}>
           <Link href={"/privacy-policy"}>Политика конфиденциальности</Link>

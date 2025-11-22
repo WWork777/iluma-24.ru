@@ -55,7 +55,7 @@ export default function Header() {
                   height={55}
                   width={55}
                 />
-                <h2>Ilumastore</h2>
+                <h2>Iluma-24</h2>
               </Link>
 
               {/* Бургер меню для мобилки */}
@@ -174,12 +174,12 @@ export default function Header() {
       <div className={`${styles.mobile_menu} ${isMenuOpen ? styles.open : ""}`}>
         <Link href={"/"} className={styles.logo_container}>
           <Image
-            src={"/logo/ilumastorelogo.svg"}
+            src={"/logo/iluma-24logo.svg"}
             alt="iluma"
             height={45}
             width={45}
           />
-          <h2>ilumastore</h2>
+          <h2>iluma-24</h2>
         </Link>
 
         <nav>

@@ -2,16 +2,16 @@ import WishlistLayout from "@/components/wishlist/wishlistLayout";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Избранное | ilumastore",
+  title: "Избранное | iluma-24",
   description: "Ваш список избранных товаров IQOS Iluma и TEREA",
   robots: {
     index: false,
     follow: false,
   },
   openGraph: {
-    title: "Избранное | ilumastore",
+    title: "Избранное | iluma-24",
     description: "Ваш список избранных товаров",
-    url: "https://ilumastore.ru/wishlist",
+    url: "https://iluma-24.ru/wishlist",
   },
 };
 
