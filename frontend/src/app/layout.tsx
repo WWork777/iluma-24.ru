@@ -17,7 +17,7 @@ const roboto = Montserrat({
 });
 
 export const metadata = {
-  title: "Iluma-24",
+  title: "ilumastore",
   icons: {
     icon: [
       { rel: "icon", type: "image/svg+xml", url: "/favicon/favicon.svg" },

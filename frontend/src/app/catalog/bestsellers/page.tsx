@@ -4,17 +4,17 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Хиты продаж IQOS Iluma и Terea | Популярные устройства и стики | Iluma-24",
+    "Хиты продаж IQOS Iluma и Terea | Популярные устройства и стики | ilumastore",
   description:
     "Самые популярные устройства IQOS Iluma и стики Terea. Топ продаж среди нагревательных устройств и табачных стиков. Проверенное качество и лучшие отзывы.",
   keywords:
     "хиты продаж IQOS, популярные устройства Iluma, лучшие стики Terea, топ продаж нагревателей, бестселлеры IQOS, самые покупаемые устройства",
   openGraph: {
-    title: "Хиты продаж IQOS Iluma и Terea | Iluma-24",
+    title: "Хиты продаж IQOS Iluma и Terea | ilumastore",
     description:
       "Самые популярные и проверенные устройства IQOS Iluma и стики Terea. Топ продаж с лучшими отзывами.",
-    url: "https://iluma-24.ru/bestsellers",
-    siteName: "Iluma-24",
+    url: "https://ilumastore.ru/bestsellers",
+    siteName: "ilumastore",
     images: [
       {
         url: "/og-bestsellers-image.jpg",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Хиты продаж IQOS Iluma и Terea | Iluma-24",
+    title: "Хиты продаж IQOS Iluma и Terea | ilumastore",
     description: "Самые популярные устройства и стики для нагрева табака",
     images: ["/twitter-bestsellers-image.jpg"],
   },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://iluma-24.ru/bestsellers",
+    canonical: "https://ilumastore.ru/bestsellers",
   },
 };
 

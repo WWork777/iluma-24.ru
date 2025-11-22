@@ -20,5 +20,5 @@ Disallow: /*?_next=*
 Disallow: /_next/
 Disallow: /_error/
 
-Host: https://iluma-24.ru
-Sitemap: https://iluma-24.ru/sitemap.xml
+Host: https://ilumastore.ru
+Sitemap: https://ilumastore.ru/sitemap.xml

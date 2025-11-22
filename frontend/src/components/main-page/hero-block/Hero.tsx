@@ -51,7 +51,7 @@ const Hero: FC = () => {
           "@context": "https://schema.org",
           "@type": "Product",
           name: "IQOS ILUMA Prime Oasis",
-          image: "https://iluma-24.ru/hero_slider/slider2.png",
+          image: "https://ilumastore.ru/hero_slider/slider2.png",
           description:
             "Ограниченная серия IQOS ILUMA Prime Oasis с доставкой по Москве.",
           brand: {
@@ -63,7 +63,7 @@ const Hero: FC = () => {
             priceCurrency: "RUB",
             price: "8990",
             availability: "https://schema.org/InStock",
-            url: "https://iluma-24.ru/product/iqos-iluma-prime-oasis",
+            url: "https://ilumastore.ru/product/iqos-iluma-prime-oasis",
           },
         })}
       </Script>
@@ -72,7 +72,7 @@ const Hero: FC = () => {
           "@context": "https://schema.org",
           "@type": "Product",
           name: "IQOS ILUMA Prime Oasis",
-          image: "https://iluma-24.ru/hero_slider/slider2.png",
+          image: "https://ilumastore.ru/hero_slider/slider2.png",
           description:
             "Ограниченная серия IQOS ILUMA Prime Oasis с доставкой по Москве.",
           brand: {
@@ -84,7 +84,7 @@ const Hero: FC = () => {
             priceCurrency: "RUB",
             price: "8990",
             availability: "https://schema.org/InStock",
-            url: "https://iluma-24.ru/product/iqos-iluma-prime-oasis",
+            url: "https://ilumastore.ru/product/iqos-iluma-prime-oasis",
           },
         })}
       </Script>
@@ -93,7 +93,7 @@ const Hero: FC = () => {
           "@context": "https://schema.org",
           "@type": "Product",
           name: "IQOS ILUMA Prime Oasis",
-          image: "https://iluma-24.ru/hero_slider/slider2.png",
+          image: "https://ilumastore.ru/hero_slider/slider2.png",
           description:
             "Ограниченная серия IQOS ILUMA Prime Oasis с доставкой по Москве.",
           brand: {
@@ -105,7 +105,7 @@ const Hero: FC = () => {
             priceCurrency: "RUB",
             price: "8990",
             availability: "https://schema.org/InStock",
-            url: "https://iluma-24.ru/product/iqos-iluma-prime-oasis",
+            url: "https://ilumastore.ru/product/iqos-iluma-prime-oasis",
           },
         })}
       </Script>

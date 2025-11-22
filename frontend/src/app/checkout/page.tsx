@@ -129,7 +129,7 @@ export default function CheckoutPage() {
     try {
       // Формируем красивое сообщение для Telegram
       const message = `
-заказ с сайта iluma-24.ru
+заказ с сайта ilumastore.ru
 
 
 Имя: ${orderData.customer_name}

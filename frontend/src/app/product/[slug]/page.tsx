@@ -112,8 +112,8 @@ export async function generateMetadata({
 
     if (!product) {
       return {
-        title: "Товар не найден | Iluma-24",
-        description: "Запрашиваемый товар не найден в каталоге Iluma-24",
+        title: "Товар не найден | ilumastore",
+        description: "Запрашиваемый товар не найден в каталоге ilumastore",
         robots: {
           index: false,
           follow: true,
@@ -142,7 +142,7 @@ export async function generateMetadata({
       : "";
 
     return {
-      title: `${product.name} - купить в Москве${priceText} | Iluma-24`,
+      title: `${product.name} - купить в Москве${priceText} | ilumastore`,
       description: `${product.name} - ${
         product.description ||
         `Оригинальные ${productCategory}. Доставка по Москве и России. Гарантия качества.`
@@ -153,14 +153,14 @@ export async function generateMetadata({
         product.name
       }`,
       openGraph: {
-        title: `${product.name} | Iluma-24`,
+        title: `${product.name} | ilumastore`,
         description: `${product.name} - ${
           product.description ||
           `Оригинальные ${productCategory}. Доставка по Москве и России.`
         }`,
         type: "website",
-        url: `https://iluma-24.ru/product/${slug}`,
-        siteName: "Iluma-24",
+        url: `https://ilumastore.ru/product/${slug}`,
+        siteName: "ilumastore",
         images: [
           {
             url:
@@ -176,7 +176,7 @@ export async function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
-        title: `${product.name} | Iluma-24`,
+        title: `${product.name} | ilumastore`,
         description: `${product.name} - ${
           product.description || `Оригинальные ${productCategory}`
         }`,
@@ -192,13 +192,13 @@ export async function generateMetadata({
         follow: true,
       },
       alternates: {
-        canonical: `https://iluma-24.ru/product/${slug}`,
+        canonical: `https://ilumastore.ru/product/${slug}`,
       },
     };
   } catch (error) {
     console.error("❌ Error in generateMetadata:", error);
     return {
-      title: "Ошибка | Iluma-24",
+      title: "Ошибка | ilumastore",
       description: "Произошла ошибка при загрузке страницы",
     };
   }

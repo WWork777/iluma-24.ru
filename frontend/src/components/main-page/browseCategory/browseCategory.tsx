@@ -130,7 +130,7 @@ export default function BrowseCategory() {
             "@type": "ListItem",
             position: index + 1,
             name: cat.title,
-            url: `https://iluma-24.ru${cat.url}`,
+            url: `https://ilumastore.ru${cat.url}`,
           })),
         })}
       </Script>
