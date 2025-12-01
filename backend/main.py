@@ -16,13 +16,13 @@ settings.log.setup_logging()
 logger = logging.getLogger(__name__)
 
 def create_application() -> FastAPI:
-    app = FastAPI(title="IlumaStore", version="1.0.0", docs_url="/docs", redoc_url="/redoc")
+    app = FastAPI(title="iluma-24", version="1.0.0", docs_url="/docs", redoc_url="/redoc")
 
     router = APIRouter(tags=["root"])
     @router.get("/")
     async def root():
         return {
-            "message": "IlumaStore API",
+            "message": "iluma-24 API",
             "swagger": "/docs",
             "admin": "/admin"
         }
