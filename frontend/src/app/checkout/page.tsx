@@ -53,6 +53,7 @@ export default function CheckoutPage() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
+    tg:"",
     city: "",
     address: "",
   });
@@ -134,6 +135,7 @@ export default function CheckoutPage() {
 
 Имя: ${orderData.customer_name}
 Телефон: ${orderData.phone_number}
+Telegram: ${orderData.tg_username}
 Способ доставки: ${orderData.is_delivery ? "Доставка" : "Самовывоз"}
 
 ${
@@ -798,6 +800,7 @@ ${orderData.ordered_items
       const orderPayload = {
         customer_name: formData.name,
         phone_number: formData.phone.replace(/\D/g, ""),
+        tg_username:formData.tg,
         is_delivery: deliveryMethod === "delivery",
         city: formData.city || "",
         address: formData.address || "",
@@ -922,6 +925,18 @@ ${orderData.ordered_items
                     onChange={handlePhoneChange}
                     required
                     placeholder="+7 (999) 999-99-99"
+                  />
+                </div>
+                <div className={styles.inputGroup}>
+                  <label htmlFor="telegram">Telegram</label>
+                  <input
+                    // type="tel"
+                    id="tg"
+                    name="tg"
+                    value={formData.tg}
+                    onChange={handleInputChange}
+                    // required
+                    placeholder="@Alena_ilumastoreRUS"
                   />
                 </div>
               </div>
