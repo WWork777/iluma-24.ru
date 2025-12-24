@@ -10,7 +10,7 @@ interface AgeGateProps {
 const AGE_CONFIRM_KEY = "ageConfirmedAt";
 const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000; // 3 дня в миллисекундах
 
-const AgeGate: FC<AgeGateProps> = ({ children }) => {
+const AgeGate: FC<AgeGateProps> = () => {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
@@ -33,7 +33,6 @@ const AgeGate: FC<AgeGateProps> = ({ children }) => {
   };
 
   if (showModal) return <AgeModal onConfirm={handleConfirm} />;
-  return <>{children}</>;
 };
 
 export default AgeGate;

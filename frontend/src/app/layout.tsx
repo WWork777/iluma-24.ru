@@ -46,7 +46,7 @@ export default function RootLayout({
           <CartProvider>
             <FavoritesProvider>
               <Header />
-              {/* <AgeGate>{children}</AgeGate> */}
+              {children}
               <Notification />
               <FloatingCart />
               <Footer />
