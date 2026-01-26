@@ -81,7 +81,7 @@ export default function Home() {
       <Reviews />
       {/* <BlockModal allowClose={true}/>
       <PromotionModal allowClose={true} /> */}
-      <ModalManager/>
+      {/* <ModalManager/> */}
     </>
   );
 }
